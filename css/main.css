@@ -1,0 +1,170 @@
+*{
+    
+    margin :0;
+}
+ul
+{
+    list-style-type: none;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+li
+{
+    float: left;
+    z-index: 1;
+}
+.search
+{
+    margin: 15px;
+    width: 120px;
+    height: 20px;
+}
+.menu
+{
+    margin-left:200px;
+    background-color: black;
+    width: 1149px;
+    height: 70px;
+    position: absolute;
+    z-index: -10;
+}
+.a1:hover,.dropmore:hover
+{
+    background: white;
+    color: black;
+}
+.a2:hover
+{
+    color: red;
+    font-weight: 700;
+}
+.a1,.dropmore
+{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 25px 40px;
+
+}
+.icon1
+{
+    margin-left: 170px;
+}
+.dropdown
+{
+    display: inline-block;
+}
+.dropcontent
+{
+    display: none;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px black;
+}
+
+.dropcontent a
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropcontent a:hover
+{
+    background-color: white;
+}
+
+.dropdown:hover .dropcontent
+{
+    display: block;
+}
+.card-bg
+{
+    background-color: white;
+    width: 570px;
+    height: 750px;
+    position: absolute;
+}
+
+.all
+{   
+    margin-top: 70px;
+    margin-left: 150px;
+    position: absolute;
+    
+    
+}
+.first
+{
+    position: relative;
+}
+img
+{
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.box1
+{
+    margin: 20px;
+    position: absolute;
+    
+}
+.card
+{
+    width: 250px;
+    background-color: white;
+}
+.box2
+{
+    position: absolute;
+    margin: 20px 290px;
+}
+.second
+{
+    position: relative;
+}
+.box3
+{
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 20px;
+}
+.box4
+{
+    position: absolute;
+    margin: 370px 290px;
+}
+
+h5
+{
+    color: #BBBBBB;
+    background-color: white;
+}
+.text
+{
+    background-color: white;
+    color: #BBBBBB;
+}
+h3
+{
+    background-color: white;
+}
+.button
+{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-weight: 900;
+}
+.unity
+{
+    width:150px; 
+    height:70px; 
+    border:0;
+    float: inherit;
+}
